@@ -3,7 +3,7 @@
 import Image from 'next/image'
 import axios from 'axios'
 import MovieTitle from './MovieTitle'
-import { use, useEffect, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useParams } from 'next/navigation'
 
 export interface Movie {
