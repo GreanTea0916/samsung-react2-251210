@@ -7,6 +7,7 @@ export default function Header() {
       <Link href="/signin">Sign In</Link>
       <Link href="/movies">Movies</Link>
       <Link href="/movies/tt1877830">The Batman</Link>
+      <Link href="/async">Async</Link>
     </header>
   )
 }
