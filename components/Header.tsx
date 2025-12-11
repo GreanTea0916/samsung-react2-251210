@@ -9,6 +9,7 @@ export default function Header() {
       <Link href="/movies/tt1877830">The Batman</Link>
       <Link href="/async">Async</Link>
       <Link href="/parallel">Parallel</Link>
+      <Link href="/client">Client Component</Link>
     </header>
   )
 }
