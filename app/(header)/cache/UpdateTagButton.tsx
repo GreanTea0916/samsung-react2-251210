@@ -8,7 +8,6 @@ export default function UpdateTagButton() {
         캐시 만료!
       </button>
       <div></div>
-      <img src="주소" />
     </>
   )
 }

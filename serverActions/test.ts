@@ -2,9 +2,13 @@
 
 export async function cachedAction() {
   'use cache'
-  console.log(new Date().toISOString())
+  const date = new Date().toISOString()
+  console.log('cached', date)
+  return date
 }
 
 export async function nonCachedAction() {
-  console.log(new Date().toISOString())
+  const date = new Date().toISOString()
+  console.log('non-cached', date)
+  return date
 }

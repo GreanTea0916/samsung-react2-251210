@@ -10,7 +10,6 @@ export const metadata: Metadata = {
     title: '메인 페이지',
     description: '메인 페이지 설명',
     images: 'https://picsum.photos/1200/630',
-    url: 'https://abc.com/', // 페이지 주소 O 사이트 주소 X
     siteName: '사이트 이름'
   },
   // Twitter Card <= Twitter
