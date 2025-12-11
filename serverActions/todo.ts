@@ -21,6 +21,7 @@ export const api = axios.create({
 
 export async function fetchTodos() {
   'use cache'
+  console.log(new Date().toISOString())
   const { data: todos } = await api.get<Todo[]>('/')
   return todos
 }
