@@ -10,6 +10,7 @@ export default function Header() {
       <Link href="/async">Async</Link>
       <Link href="/parallel">Parallel</Link>
       <Link href="/client">Client Component</Link>
+      <Link href="/cache">Cache</Link>
     </header>
   )
 }
